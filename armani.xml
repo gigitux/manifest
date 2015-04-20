@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<include name="base-l-aosp.xml"/>
+<default remote="caf" revision="refs/tags/android-5.1.0_r1" sync-j="4"/>
+
+<!--- Armani Specific Things--->
+
+<project name="android_kernel_xiaomi_armani" path= 
