@@ -7,4 +7,7 @@
 
 <!--- Armani Specific Things--->
 
-<project name="android_kernel_xiaomi_armani" path= 
+<project name="android_kernel_xiaomi_armani" />
+<project name="android_device_xiaomi_armani" />
+
+</manifest>
