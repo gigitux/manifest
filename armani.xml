@@ -5,10 +5,13 @@
 <include name="base-l-aosp.xml"/>
 <default remote="caf" revision="refs/tags/android-5.1.0_r1" sync-j="4"/>
 
+<remote fetch="https://github.com/b2g-armani" name="b2g-armani" />
+
 <!--- Armani Specific Things--->
 
-<remote fetch="https://github.com/b2g-armani" name="b2g-armani" />
+
 <project name="android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="b2g-armani" />
+
 <project name="android_device_xiaomi_armani" path="device/xiaomi/armani" remote="b2g-armani" />
 
 </manifest>
