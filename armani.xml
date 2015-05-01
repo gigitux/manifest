@@ -10,8 +10,6 @@
 <!--- armani specific things--->
 
 <project name="android_device_xiaomi_armani" path="device/xiaomi/armani" remote="b2g-armani" />
-<project name="android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="b2g-armani" />
 <project name="android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="b2g-armani" />
-<project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="b2g-armani" />
 
 </manifest>
