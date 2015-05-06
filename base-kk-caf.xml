@@ -13,5 +13,8 @@
   <remove-project name="platform/system/media"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="LNX.LF.3.5.2.1_1"/>
   <project name="platform/system/media" path="system/media" revision="LNX.LF.3.5.2.1_1"/>
+  <project path="kernel/xiaomi/armani" name="armani-dev/android_kernel_xiaomi_armani" remote="github" revision="cm-11.0" />
+<project path="device/xiaomi/armani" name="armani-dev/android_device_xiaomi_armani" remote="github" revision="cm-11.0" />
+<project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-11.0" />
 
 </manifest>
