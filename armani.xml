@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-
-<include name="base-l-aosp.xml"/>
-<default remote="caf" revision="refs/tags/android-5.1.0_r1" sync-j="4"/>
-
+<include name="base-kk-caf.xml"/>
 <remote fetch="https://github.com/b2g-armani" name="b2g-armani" />
 
 </manifest>
