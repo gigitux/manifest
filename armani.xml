@@ -17,8 +17,8 @@
 	<manifest>
 	<!-- armani Specific -->
 	
-	<project path="kernel/xiaomi/armani" name="android_kernel_xiaomi_armani" remote="b2g-armani" revision="cm-12.1" />
-	<project path="device/xiaomi/armani" name="android_device_xiaomi_armani" remote="b2g-armani" revision="cm-12.1" />
+	<project path="kernel/xiaomi/armani" name="android_kernel_xiaomi_armani" remote="b2g-armani" revision="cm-11.0" />
+	<project path="device/xiaomi/armani" name="android_device_xiaomi_armani" remote="b2g-armani" revision="cm-11.0" />
 	
 	
 	</manifest>
