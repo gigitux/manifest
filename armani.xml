@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
-<include name="base-kk-caf.xml"/>
-<remote fetch="https://github.com/b2g-armani" name="b2g-armani" />
 
+    <include name="base-kk-caf.xml"/>
+    <remote fetch="https://github.com/b2g-armani" name="b2g-armani" />
+	
+	<project path="kernel/armani" name="kernel" remote="b2g-armani" revision="cm-11.0" />
+	<project path="device/armani" name="device" remote="b2g-armani" revision="cm-11.0" />
+	
 </manifest>
-
-<!--- armani specific things--->
-
-
-<?xml version="1.0" encoding="UTF-8"?>
-	
-	<manifest>
-	<!-- armani Specific -->
-	
-	<project path="kernel/armani" name="kernel_armani" remote="b2g-armani" revision="cm-11.0" />
-	<project path="device/armani" name="device_armani" remote="b2g-armani" revision="cm-11.0" />
-	
-	
-	</manifest>
