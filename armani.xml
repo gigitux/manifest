@@ -3,7 +3,9 @@
 
     <include name="base-kk-caf.xml"/>
     <remote fetch="https://github.com/b2g-armani" name="b2g-armani" />
-
+    <default remote="caf" revision="LNX.LA.3.5.2.1.1" sync-j="4"/>
+     
+     
     <project path="device/armani" name="device" remote="b2g-armani" revision="cm-11.0" />
     <project path="kernel/armani" name="kernel" remote="b2g-armani" revision="cm-11.0" />
     <project path="vendor/xiaomi" name="vendor" remote="b2g-armani" revision="kk-4.4" />
