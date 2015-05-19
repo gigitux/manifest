@@ -6,8 +6,8 @@
     <default remote="caf" revision="LNX.LA.3.5.2.1.1" sync-j="4"/>
      
      
-    <project path="device/armani" name="device" remote="b2g-armani" revision="cm-11.0" />
-    <project path="kernel/armani" name="kernel" remote="b2g-armani" revision="cm-11.0" />
-    <project path="vendor/xiaomi" name="vendor" remote="b2g-armani" revision="kk-4.4" />
+    <project path="device/xiaomi/armani" name="android_device_xiaomi_armani" remote="b2g-armani" revision="cm-11.0" />
+    <project path="kernel/xiaomi/armani" name="android_kernel_xiaomi_armani" remote="b2g-armani" revision="cm-11.0" />
+    <project path="vendor/xiaomi/armani" name="vendor_xiaomi_armani" remote="b2g-armani" revision="kk-4.4" />
 	
 </manifest>
