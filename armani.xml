@@ -5,6 +5,7 @@
     <remote fetch="https://github.com/b2g-armani" name="b2g-armani" />
     <default remote="caf" revision="LNX.LA.3.5.2.1.1" sync-j="4"/>
      
+     <!-- armani specific -->
      
     <project path="device/xiaomi/armani" name="android_device_xiaomi_armani" remote="b2g-armani" revision="cm-11.0" />
     <project path="kernel/xiaomi/armani" name="android_kernel_xiaomi_armani" remote="b2g-armani" revision="cm-11.0" />
