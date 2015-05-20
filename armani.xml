@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <include name="base-kk-caf.xml"/>
+    <include name="base-kk-aosp.xml"/>
     <remote fetch="https://github.com/b2g-armani" name="b2g-armani" />
-    <default remote="caf" revision="LNX.LA.3.5.2.1.1" sync-j="4"/>
+    <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
      
      <!-- armani specific -->
      
