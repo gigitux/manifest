@@ -4,13 +4,7 @@
     <include name="base-kk-aosp.xml"/>
     <remote fetch="https://github.com/b2g-armani" name="b2g-armani" />
     <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
-     
-     <!-- test -->
-     
-     <project path="kernel/xiaomi/armani" name="armani-dev/android_kernel_xiaomi_armani" remote="github" revision="cm-11.0" />
-<project path="device/xiaomi/armani" name="armani-dev/android_device_xiaomi_armani" remote="github" revision="cm-11.0" />
-<project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-11.0" />
-
+   
      <!-- armani specific 
      
     <project path="device/xiaomi/armani" name="android_device_xiaomi_armani" remote="b2g-armani" revision="cm-11.0" />
